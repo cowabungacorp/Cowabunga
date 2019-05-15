@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".fragments.UserFragment" android:orientation="vertical"
+            android:id="@+id/fu_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top" android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" android:layout_marginTop="50dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:gravity="center">
+            <ImageView
+                    android:contentDescription="@string/user_picture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ic_account_circle_black_24dp"
+                    android:id="@+id/imageView"
+                    android:scaleType="centerCrop"
+
+
+            />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="10dp">
+            <TextView
+                    android:text="@string/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/tv_nome"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp">
+            <Button
+                    android:id="@+id/problem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttpm"
+                    android:drawableStart="@drawable/ic_build_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:paddingTop="25dp"
+                    android:paddingBottom="25dp"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="25dp"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            <Button
+                    android:id="@+id/probl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_buttpm"
+                    android:drawableStart="@drawable/ic_build_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:paddingTop="25dp"
+                    android:paddingBottom="25dp"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="25dp"
+                    style="?android:attr/buttonBarButtonStyle"/>
+        </TableRow>
+    </TableLayout>
