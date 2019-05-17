@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "855940733657",
+    "firebase_url": "https://cowabunga-cc356.firebaseio.com",
+    "project_id": "cowabunga",
+    "storage_bucket": "cowabunga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855940733657:android:6333b2fe7680645f",
+        "android_client_info": {
+          "package_name": "br.com.brozoski.cowabunga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855940733657-rtq61gpejt9rrie1tdpuvu8345ol3ila.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDamyJmgAsgsok6nUDBa7WdCx5mVgek3v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855940733657-rtq61gpejt9rrie1tdpuvu8345ol3ila.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
